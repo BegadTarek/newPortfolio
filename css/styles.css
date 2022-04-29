@@ -5582,6 +5582,11 @@ textarea.form-control-lg {
   padding: 1rem;
 }
 
+.modal-body .img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
@@ -11462,7 +11467,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 15rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
